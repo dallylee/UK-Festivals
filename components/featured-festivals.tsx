@@ -25,7 +25,7 @@ export function FeaturedFestivals() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {featuredFestivals.map((festival, index) => (
-            <FestivalCard key={festival.id} festival={festival} featured={index === 0} />
+            <FestivalCard key={festival.id} festival={festival} featured={index === 0} index={index} />
           ))}
         </div>
       </div>

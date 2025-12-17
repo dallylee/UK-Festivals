@@ -48,7 +48,7 @@ export function QuickLinks() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="group p-6 rounded-xl bg-card border border-border hover:border-primary/50 transition-all hover:shadow-lg"
+                className="group p-6 rounded-xl bg-card border border-border hover:border-primary/50 transition-all hover:shadow-lg hover:-translate-y-1 hover:shadow-primary/5 active:scale-95 duration-200"
               >
                 <div
                   className={`w-12 h-12 rounded-lg ${link.color} flex items-center justify-center mb-4 transition-transform group-hover:scale-110`}
